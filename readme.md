@@ -22,10 +22,10 @@ npm install
 node setup.js
 node server.js
 
-## Your API should now be running at http://localhost:3000/.
+### Your API should now be running at http://localhost:3000/.
 
 
-### 🌐 API Endpoints
+🌐 API Endpoints
 
 Method	Route	Description
 GET	/api/company-info	Get company details
@@ -35,10 +35,7 @@ GET	/api/products/driveway-light	Get driveway light details
 GET	/api/products/wall-light	Get wall light details
 
 
-### 📸 Demo Screenshot
-Below is the screenshot from Postman Runner showing all endpoints returning successful responses (200 OK):
 
-![Postman Run Results](./demo_screenshots/postman-run-results.png)
 
 
 
