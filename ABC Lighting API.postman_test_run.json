@@ -1,0 +1,286 @@
+{
+	"id": "26f30262-e41a-438e-b601-8fb782b0083a",
+	"name": "ABC Lighting API",
+	"timestamp": "2025-04-16T05:22:10.774Z",
+	"collection_id": "32142197-a7146d2e-bce6-4259-a3e9-2c9394502486",
+	"folder_id": 0,
+	"environment_id": "32142197-9006d990-3e6f-4475-b4a8-0d41aeb908f7",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-04-16T05:22:09.526Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "196f13f1-f9a3-47cd-a3d8-0eaa60065f94",
+			"name": "Get Company Info",
+			"url": "/api/company-info",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4d39b8a9-686d-4231-957e-1ad78a403bac",
+			"name": "Get All Products",
+			"url": "http://localhost:3000/api/products",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "40aa0419-ed4c-4373-858f-8ef057d5b708",
+			"name": "Get Street Light",
+			"url": "http://localhost:3000/api/products/street-light",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7479e53d-7e39-4412-bb4b-eb08dab9f452",
+			"name": "Get Driveway Light",
+			"url": "http://localhost:3000/api/products/driveway-light",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5e510a43-bafd-41eb-b34b-624eaf4eddc4",
+			"name": "Get Wall Light",
+			"url": "http://localhost:3000/api/products/wall-light",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cf1fd921-5ded-44c8-868f-65cd2e5d8246",
+			"name": "Get Street Light Image",
+			"url": "http://localhost:3000/api/product-image/street-light",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f52316aa-0b0a-46a3-9432-80a1b71ce957",
+			"name": "Start Conversation",
+			"url": "http://localhost:3000/api/chat",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "432a7b85-0ef9-4124-ae7a-0811ef7093cd",
+			"name": "Ask About Products",
+			"url": "http://localhost:3000/api/chat",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "818916e4-76ea-4502-abeb-63c79e86e439",
+			"name": "Ask About Street Light",
+			"url": "http://localhost:3000/api/chat",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "86fcd101-9f31-404e-90a5-eaca3dd6a8c5",
+			"name": "Ask For Street Light Image",
+			"url": "http://localhost:3000/api/chat",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5b94a324-3c25-4882-a59e-f117a6ab79ab",
+			"name": "End Conversation",
+			"url": "http://localhost:3000/api/chat",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b5036196-ee27-428d-99e7-f9d9d3c3cf64",
+			"name": "Submit Contact Info",
+			"url": "http://localhost:3000/api/contact",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 45,
+	"collection": {
+		"requests": [
+			{
+				"id": "196f13f1-f9a3-47cd-a3d8-0eaa60065f94",
+				"method": "GET"
+			},
+			{
+				"id": "4d39b8a9-686d-4231-957e-1ad78a403bac",
+				"method": "GET"
+			},
+			{
+				"id": "40aa0419-ed4c-4373-858f-8ef057d5b708",
+				"method": "GET"
+			},
+			{
+				"id": "7479e53d-7e39-4412-bb4b-eb08dab9f452",
+				"method": "GET"
+			},
+			{
+				"id": "5e510a43-bafd-41eb-b34b-624eaf4eddc4",
+				"method": "GET"
+			},
+			{
+				"id": "cf1fd921-5ded-44c8-868f-65cd2e5d8246",
+				"method": "GET"
+			},
+			{
+				"id": "f52316aa-0b0a-46a3-9432-80a1b71ce957",
+				"method": "POST"
+			},
+			{
+				"id": "432a7b85-0ef9-4124-ae7a-0811ef7093cd",
+				"method": "POST"
+			},
+			{
+				"id": "818916e4-76ea-4502-abeb-63c79e86e439",
+				"method": "POST"
+			},
+			{
+				"id": "86fcd101-9f31-404e-90a5-eaca3dd6a8c5",
+				"method": "POST"
+			},
+			{
+				"id": "5b94a324-3c25-4882-a59e-f117a6ab79ab",
+				"method": "POST"
+			},
+			{
+				"id": "b5036196-ee27-428d-99e7-f9d9d3c3cf64",
+				"method": "POST"
+			}
+		]
+	}
+}
